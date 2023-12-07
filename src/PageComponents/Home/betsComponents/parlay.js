@@ -386,7 +386,7 @@ const Parlay = () => {
             </Box>
             <Button
               sx={{
-                width: '90%',
+                width: '95%',
                 height: '3em',
                 margin: 'auto',
                 display: 'flex',
@@ -396,11 +396,11 @@ const Parlay = () => {
                 color: 'white',
                 backgroundColor: 'green',
                 '&:hover': {
-                  backgroundColor: 'green',
+                  backgroundColor: 'darkgreen',
                 },
               }}
             >
-              <Typography sx={{ lineHeight: '1em', fontSize: '14px' }}>
+              <Typography sx={{ lineHeight: '1.1em', fontSize: '14px' }}>
                 Add to Betslip
               </Typography>
               <Typography sx={{ lineHeight: '1em', fontSize: '11px' }}>
