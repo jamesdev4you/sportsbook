@@ -105,8 +105,8 @@ export default function NavBar(props) {
         <Toolbar
           sx={{
             backgroundColor: '#00499B',
-            marginLeft: '12vw',
-            marginRight: '12vw',
+            marginLeft: '14.4em',
+            marginRight: '14.4em',
           }}
         >
           <IconButton
@@ -122,8 +122,8 @@ export default function NavBar(props) {
             alt='yooo'
             sx={{
               display: { sm: 'none', md: 'block' },
-              height: '80px',
-              width: '80px',
+              height: '5em',
+              width: '5em',
               marginLeft: {
                 xs: 'auto',
                 sm: 'auto',

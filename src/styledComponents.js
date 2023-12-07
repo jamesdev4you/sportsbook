@@ -48,4 +48,17 @@ const MyJoinButton = (props) => (
   </Button>
 );
 
-export { MyLoginButton, MyJoinButton };
+const OpenCloseButton = (props) => (
+  <Button
+    variant='contained'
+    sx={{
+      marginLeft: 'auto',
+      height: '2em',
+      padding: 'none',
+      width: '1px',
+      color: 'black',
+    }}
+  ></Button>
+);
+
+export { MyLoginButton, MyJoinButton, OpenCloseButton };
