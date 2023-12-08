@@ -6,7 +6,18 @@ import SportsBasketballIcon from '@mui/icons-material/SportsBasketball';
 import Link from '@mui/material/Link';
 import Raptors from '../../../assets/NBARAPTORS.png';
 import Hornets from '../../../assets/NBAHORNETS.png';
+import Pistons from '../../../assets/NBAPISTONS.png';
+import Magic from '../../../assets/NBAMAGIC.png';
+import Hawks from '../../../assets/NBAHAWKS.png';
+import Phil from '../../../assets/NBA76.png';
+import Wizards from '../../../assets/NBAWIZARDS.png';
+import Pacers from '../../../assets/NBAPACERS.png';
+import Knicks from '../../../assets/NBAKNICKS.png';
+import Nugget from '../../../assets/NBANUGGET.png';
 import LocalAtmIcon from '@mui/icons-material/LocalAtm';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Button from '@mui/material/Button';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 const teams = [
   {
@@ -27,9 +38,9 @@ const teams = [
   },
   {
     title1: 'Detroit Pistons',
-    logo: Raptors,
+    logo: Pistons,
     title2: 'Orlando Magic',
-    logo2: Hornets,
+    logo2: Magic,
     spread1a: '+11',
     spread1b: '-112',
     money1: '+420',
@@ -43,51 +54,51 @@ const teams = [
   },
   {
     title1: 'Atlanta Hawks',
-    logo: Raptors,
+    logo: Hawks,
     title2: 'Philadelphia 76ers',
-    logo2: Hornets,
-    spread1a: '-5.5',
-    spread1b: '-112',
-    money1: '-200',
-    total1a: 'O 222',
+    logo2: Phil,
+    spread1a: '+9',
+    spread1b: '-110',
+    money1: '+350',
+    total1a: 'O 239',
     total1b: '-110',
-    spread2a: '+5.5',
-    spread2b: '+108',
-    money2: '+184',
-    total2a: 'U 222',
+    spread2a: '-9.5',
+    spread2b: '-112',
+    money2: '-450',
+    total2a: 'U 239',
     total2b: '-110',
   },
   {
     title1: 'Washington Wizards',
-    logo: Raptors,
-    title2: 'Brooklyn Nets',
-    logo2: Hornets,
-    spread1a: '-5.5',
-    spread1b: '-112',
-    money1: '-200',
-    total1a: 'O 222',
+    logo: Wizards,
+    title2: 'Indiana Pacers',
+    logo2: Pacers,
+    spread1a: '+9.5',
+    spread1b: '-108',
+    money1: '+350',
+    total1a: 'O 239',
     total1b: '-110',
-    spread2a: '+5.5',
-    spread2b: '+108',
-    money2: '+184',
-    total2a: 'U 222',
+    spread2a: '-9.5',
+    spread2b: '-112',
+    money2: '-450',
+    total2a: 'U 239',
     total2b: '-110',
   },
   {
     title1: 'New York Knicks',
-    logo: Raptors,
-    title2: 'Boston Celtics',
-    logo2: Hornets,
-    spread1a: '-5.5',
+    logo: Knicks,
+    title2: 'Indiana Pacers',
+    logo2: Nugget,
+    spread1a: '+8',
     spread1b: '-112',
-    money1: '-200',
-    total1a: 'O 222',
-    total1b: '-110',
-    spread2a: '+5.5',
-    spread2b: '+108',
-    money2: '+184',
-    total2a: 'U 222',
-    total2b: '-110',
+    money1: '+240',
+    total1a: 'O 220.5',
+    total1b: '-112',
+    spread2a: '-8',
+    spread2b: '-108',
+    money2: '-295',
+    total2a: 'U 220.5',
+    total2b: '-108',
   },
 ];
 
@@ -179,20 +190,18 @@ const NBA = () => {
             height: '2em',
             display: 'flex',
             alignItems: 'center',
-            justifyContent: 'space-between',
+            justifyContent: 'space-around',
           }}
         >
           <Typography
-            sx={{ fontWeight: 'light', fontSize: '11px', marginLeft: '38px' }}
+            sx={{ fontWeight: 'light', fontSize: '12px', paddingRight: '5px' }}
           >
             SPREAD
           </Typography>
-          <Typography sx={{ fontWeight: 'light', fontSize: '11px' }}>
+          <Typography sx={{ fontWeight: 'light', fontSize: '12px' }}>
             MONEY
           </Typography>
-          <Typography
-            sx={{ fontWeight: 'light', fontSize: '11px', marginRight: '32px' }}
-          >
+          <Typography sx={{ fontWeight: 'light', fontSize: '12px' }}>
             TOTAL
           </Typography>
         </Box>
@@ -217,7 +226,7 @@ const NBA = () => {
           <Box
             sx={{
               width: '100%',
-              backgroundColor: '#F7FBFF',
+              backgroundColor: '#FFFFFF',
               height: '8em',
               borderBottom: '1px solid #C9D1DB',
               display: 'flex',
@@ -259,8 +268,8 @@ const NBA = () => {
                   <Box
                     sx={{
                       backgroundImage: `url(${logo})`,
-                      height: '28px',
-                      width: '28px',
+                      height: '32px',
+                      width: '32px',
                       backgroundPosition: 'center',
                       backgroundRepeat: 'no-repeat',
                       backgroundSize: 'cover',
@@ -578,6 +587,141 @@ const NBA = () => {
           </Box>
         )
       )}
+      <Box
+        sx={{
+          width: '100%',
+          backgroundColor: '#ffffff',
+          height: '3em',
+          borderBottom: '1px solid #C9D1DB',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'start',
+          padding: '1em',
+        }}
+      >
+        <Typography
+          variant='p'
+          sx={{ fontFamily: 'Birds', fontWeight: 'bold' }}
+        >
+          To Score 20+ Points Parlay Builder
+        </Typography>
+        <Button
+          sx={{
+            marginLeft: 'auto',
+            height: '2em',
+            padding: 'none',
+            width: '1px',
+            color: 'black',
+            minWidth: '30px',
+            borderRadius: '50%',
+          }}
+        >
+          <ExpandMoreIcon />
+        </Button>
+      </Box>
+      <Box
+        sx={{
+          width: '100%',
+          backgroundColor: '#ffffff',
+          height: '3em',
+          borderBottom: '1px solid #C9D1DB',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'start',
+          padding: '1em',
+        }}
+      >
+        <Typography
+          variant='p'
+          sx={{ fontFamily: 'Birds', fontWeight: 'bold' }}
+        >
+          To Record a Double Double Parlay Builder
+        </Typography>
+        <Button
+          sx={{
+            marginLeft: 'auto',
+            height: '2em',
+            padding: 'none',
+            width: '1px',
+            color: 'black',
+            minWidth: '30px',
+            borderRadius: '50%',
+          }}
+        >
+          <ExpandMoreIcon />
+        </Button>
+      </Box>
+      <Box
+        sx={{
+          width: '100%',
+          backgroundColor: '#ffffff',
+          height: '3em',
+          borderBottom: '1px solid #C9D1DB',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'start',
+          padding: '1em',
+        }}
+      >
+        <Typography
+          variant='p'
+          sx={{ fontFamily: 'Birds', fontWeight: 'bold' }}
+        >
+          3+ Made Threes Parlay Builder
+        </Typography>
+        <Button
+          sx={{
+            marginLeft: 'auto',
+            height: '2em',
+            padding: 'none',
+            width: '1px',
+            color: 'black',
+            minWidth: '30px',
+            borderRadius: '50%',
+          }}
+        >
+          <ExpandMoreIcon />
+        </Button>
+      </Box>
+      <Box
+        sx={{
+          width: '100%',
+          backgroundColor: '#ffffff',
+          height: '3em',
+          borderBottom: '1px solid #C9D1DB',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'start',
+          padding: '1em',
+        }}
+      >
+        <Link
+          variant='p'
+          sx={{
+            fontFamily: 'Birds',
+            textDecoration: 'none',
+            fontSize: '14px',
+            '&:hover': {
+              cursor: 'pointer',
+            },
+          }}
+        >
+          More Nba
+        </Link>
+        <Button
+          sx={{
+            marginLeft: 'auto',
+            height: '2em',
+            padding: 'none',
+            width: '1px',
+            color: 'black',
+            minWidth: '30px',
+            borderRadius: '50%',
+          }}
+        >
+          <KeyboardArrowRightIcon />
+        </Button>
+      </Box>
     </Box>
   );
 };
