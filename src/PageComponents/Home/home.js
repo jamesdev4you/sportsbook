@@ -14,7 +14,7 @@ const Home = () => {
           width: '100%',
           height: 'auto',
           display: 'flex',
-          alignItems: 'center',
+          alignItems: 'start',
           justifyContent: 'start',
           marginTop: '79px',
         }}

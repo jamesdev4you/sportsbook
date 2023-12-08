@@ -2,6 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import PopularScroll from './betsComponents/popularScroll';
 import Parlay from './betsComponents/parlay';
+import NBA from './betsComponents/nba';
 
 const Bets = () => {
   return (
@@ -9,7 +10,7 @@ const Bets = () => {
       sx={{
         backgroundColor: '#EAF0F6',
         width: '40%',
-        height: '100vh',
+        height: 'auto',
         display: 'flex',
         padding: '2em',
         alignItems: 'center',
@@ -20,6 +21,7 @@ const Bets = () => {
     >
       <PopularScroll />
       <Parlay />
+      <NBA />
     </Box>
   );
 };
