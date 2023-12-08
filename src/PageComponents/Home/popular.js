@@ -68,7 +68,7 @@ const iconTitle = [
 
 const Popular = () => {
   return (
-    <Box sx={{ backgroundColor: '#05285A', width: '25.7em', height: '161vh' }}>
+    <Box sx={{ backgroundColor: '#05285A', width: '25em', height: '161vh' }}>
       <Box
         sx={{
           display: 'flex',
