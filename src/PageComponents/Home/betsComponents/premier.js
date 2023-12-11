@@ -146,7 +146,7 @@ const Premier = () => {
           }}
         >
           <Typography sx={{ fontWeight: 'bold', fontSize: '11px' }}>
-            NBA
+            English Premier League
           </Typography>
         </Box>
         <Box

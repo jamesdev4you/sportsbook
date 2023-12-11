@@ -204,7 +204,7 @@ const Wimbledon = () => {
           backgroundColor: '#ffffff',
           height: '3em',
           borderBottom: '1px solid #C9D1DB',
-          display: isOpen ? 'none' : 'flex',
+          display: isOpen ? 'flex' : 'none',
           alignItems: 'center',
           justifyContent: 'start',
           padding: '1em',
@@ -246,7 +246,7 @@ const Wimbledon = () => {
           {isOpen ? <ExpandMoreIcon /> : <KeyboardArrowRightIcon />}
         </Button>
       </Box>
-      {isOpen &&
+      {!isOpen &&
         morePlayers.map(({ name, odds }) => (
           <Box
             sx={{
@@ -313,7 +313,7 @@ const Wimbledon = () => {
           backgroundColor: '#ffffff',
           height: '3em',
           borderBottom: '1px solid #C9D1DB',
-          display: isOpen ? 'flex' : 'none',
+          display: isOpen ? 'none' : 'flex',
           alignItems: 'center',
           justifyContent: 'start',
           padding: '1em',
