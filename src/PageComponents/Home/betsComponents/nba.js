@@ -386,6 +386,10 @@ const NBA = () => {
                       flexDirection: 'column',
                       border: '1px solid #2B90FF',
                       borderRadius: '5px',
+                      '&:hover': {
+                        backgroundColor: '#e0f0f5',
+                        cursor: 'pointer',
+                      },
                     }}
                   >
                     <Typography sx={{ fontSize: '11px', fontWeight: 'bold' }}>
@@ -412,6 +416,10 @@ const NBA = () => {
                       flexDirection: 'column',
                       border: '1px solid #2B90FF',
                       borderRadius: '5px',
+                      '&:hover': {
+                        backgroundColor: '#e0f0f5',
+                        cursor: 'pointer',
+                      },
                     }}
                   >
                     <Typography
@@ -435,6 +443,10 @@ const NBA = () => {
                       flexDirection: 'column',
                       border: '1px solid #2B90FF',
                       borderRadius: '5px',
+                      '&:hover': {
+                        backgroundColor: '#e0f0f5',
+                        cursor: 'pointer',
+                      },
                     }}
                   >
                     <Typography sx={{ fontSize: '11px', fontWeight: 'bold' }}>
@@ -472,6 +484,10 @@ const NBA = () => {
                       flexDirection: 'column',
                       border: '1px solid #2B90FF',
                       borderRadius: '5px',
+                      '&:hover': {
+                        backgroundColor: '#e0f0f5',
+                        cursor: 'pointer',
+                      },
                     }}
                   >
                     <Typography sx={{ fontSize: '11px', fontWeight: 'bold' }}>
@@ -498,6 +514,10 @@ const NBA = () => {
                       flexDirection: 'column',
                       border: '1px solid #2B90FF',
                       borderRadius: '5px',
+                      '&:hover': {
+                        backgroundColor: '#e0f0f5',
+                        cursor: 'pointer',
+                      },
                     }}
                   >
                     <Typography
@@ -521,6 +541,10 @@ const NBA = () => {
                       flexDirection: 'column',
                       border: '1px solid #2B90FF',
                       borderRadius: '5px',
+                      '&:hover': {
+                        backgroundColor: '#e0f0f5',
+                        cursor: 'pointer',
+                      },
                     }}
                   >
                     <Typography sx={{ fontSize: '11px', fontWeight: 'bold' }}>
@@ -581,7 +605,7 @@ const NBA = () => {
                   },
                 }}
               >
-                More Wages >
+                More Wages
               </Link>
             </Box>
           </Box>

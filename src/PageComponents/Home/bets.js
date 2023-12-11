@@ -3,6 +3,8 @@ import Box from '@mui/material/Box';
 import PopularScroll from './betsComponents/popularScroll';
 import Parlay from './betsComponents/parlay';
 import NBA from './betsComponents/nba';
+import Wimbledon from './betsComponents/wimbledon';
+import Premier from './betsComponents/premier';
 
 const Bets = () => {
   return (
@@ -22,6 +24,8 @@ const Bets = () => {
       <PopularScroll />
       <Parlay />
       <NBA />
+      <Wimbledon />
+      <Premier />
     </Box>
   );
 };
