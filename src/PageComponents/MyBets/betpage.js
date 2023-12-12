@@ -15,7 +15,7 @@ const BetPage = () => {
         width: '40%',
         height: '315.2vh',
         display: 'flex',
-        padding: '3em',
+        padding: '2.3em',
         alignItems: 'start',
         justifyContent: 'start',
         flexDirection: 'column',
@@ -132,7 +132,7 @@ const BetPage = () => {
               }}
             >
               {' '}
-              Betslip{' '}
+              Ongoing Bets{' '}
             </Typography>
           </Box>
           <Box
@@ -885,9 +885,1476 @@ const BetPage = () => {
         </Box>
       )}
       {activeTab === 'Settled' && (
-        <Box>
-          {/* Content for Settled */}
-          <Typography>Content for Settled Bets</Typography>
+        <Box
+          sx={{
+            marginTop: '2em',
+            width: '100%',
+            height: 'auto',
+            backgroundColor: '#EAF0F6',
+            boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'start',
+            flexDirection: 'column',
+          }}
+        >
+          <Box
+            sx={{
+              width: '100%',
+              height: '5vh',
+              backgroundColor: 'white',
+              display: 'flex',
+              boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
+              alignItems: 'center',
+              justifyContent: 'start',
+              padding: '.5em',
+            }}
+          >
+            <Box
+              sx={{
+                backgroundColor: '#00499B',
+                height: '25px',
+                width: '25px',
+                borderRadius: '50%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <Typography sx={{ color: 'white', fontSize: '12px' }}>
+                {' '}
+                7{' '}
+              </Typography>
+            </Box>
+            <Typography
+              sx={{
+                color: 'black',
+                fontFamily: 'Birds',
+                fontWeight: 'bold',
+                marginLeft: '5px',
+              }}
+            >
+              {' '}
+              Earnings{' '}
+            </Typography>
+            <Box
+              sx={{
+                padding: '.4em',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderRadius: '5px',
+                backgroundColor: 'green',
+                marginLeft: 'auto',
+              }}
+            >
+              <Typography
+                sx={{
+                  color: 'white',
+                  fontFamily: 'Birds',
+                  fontWeight: 'bold',
+                }}
+              >
+                {' '}
+                Total: $12,437{' '}
+              </Typography>
+            </Box>
+          </Box>
+          <Box
+            sx={{
+              width: '100%',
+              height: '15vh',
+              backgroundColor: 'white',
+              marginTop: '15px',
+              display: 'flex',
+              boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
+              alignItems: 'start',
+              justifyContent: 'center',
+              flexDirection: 'row',
+              padding: '.5em',
+            }}
+          >
+            <Box
+              sx={{
+                height: '100%',
+                width: '90%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'start',
+                flexDirection: 'column',
+              }}
+            >
+              <Box
+                sx={{
+                  height: '30%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'start',
+                  justifyContent: 'center',
+                  flexDirection: 'column',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Box
+                  sx={{
+                    height: '40%',
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography sx={{ fontSize: '14px', fontWeight: 'bold' }}>
+                    Tenneesee Titans +13.5
+                  </Typography>
+                  <Typography
+                    sx={{
+                      marginLeft: 'auto',
+                      fontSize: '14px',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    -120
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    height: '50%',
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '12px',
+                      fontWeight: 'bold',
+                      color: 'lightblack',
+                    }}
+                  >
+                    SPREAD
+                  </Typography>
+                  <Box
+                    sx={{
+                      width: '4em',
+                      height: '1.2em',
+                      borderRadius: '3px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      backgroundColor: 'lightgrey',
+                      marginLeft: 'auto',
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        fontSize: '11px',
+                        fontWeight: 'bold',
+                        color: 'darkblue',
+                      }}
+                    >
+                      CASH OUT
+                    </Typography>
+                  </Box>
+                </Box>
+              </Box>
+              <Box
+                sx={{
+                  height: '20%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'end',
+                  justifyContent: 'center',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontSize: '11px',
+                    fontWeight: 'bold',
+                    color: 'grey',
+                  }}
+                >
+                  Tennessee Titans @ Miami Dolphins
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: '11px',
+                    fontWeight: 'bold',
+                    color: 'grey',
+                    marginLeft: 'auto',
+                  }}
+                >
+                  8:16 PM EST
+                </Typography>
+              </Box>
+              <Box
+                sx={{
+                  height: '50%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'start',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Box
+                  sx={{
+                    width: '50%',
+                    height: '80%',
+                    border: '1px solid lightgrey',
+                    padding: '.5em',
+                    borderRadius: '3px',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      color: 'black',
+                    }}
+                  >
+                    WAGER
+                  </Typography>
+                  <Typography>+$200.00</Typography>
+                </Box>
+                <Box
+                  sx={{
+                    width: '50%',
+                    height: '80%',
+                    border: '1px solid lightgrey',
+                    padding: '.5em',
+                    borderRadius: '3px',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      color: 'black',
+                    }}
+                  >
+                    AMOUNT WON:
+                  </Typography>
+                  <Typography>+$196.8</Typography>
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+          <Box
+            sx={{
+              width: '100%',
+              height: '15vh',
+              backgroundColor: 'white',
+              marginTop: '15px',
+              display: 'flex',
+              boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
+              alignItems: 'start',
+              justifyContent: 'center',
+              flexDirection: 'row',
+              padding: '.5em',
+            }}
+          >
+            <Box
+              sx={{
+                height: '100%',
+                width: '90%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'start',
+                flexDirection: 'column',
+              }}
+            >
+              <Box
+                sx={{
+                  height: '30%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'start',
+                  justifyContent: 'center',
+                  flexDirection: 'column',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Box
+                  sx={{
+                    height: '40%',
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography sx={{ fontSize: '14px', fontWeight: 'bold' }}>
+                    Tenneesee Titans +13.5
+                  </Typography>
+                  <Typography
+                    sx={{
+                      marginLeft: 'auto',
+                      fontSize: '14px',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    -120
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    height: '50%',
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '12px',
+                      fontWeight: 'bold',
+                      color: 'lightblack',
+                    }}
+                  >
+                    SPREAD
+                  </Typography>
+                  <Box
+                    sx={{
+                      width: '4em',
+                      height: '1.2em',
+                      borderRadius: '3px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      backgroundColor: 'lightgrey',
+                      marginLeft: 'auto',
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        fontSize: '11px',
+                        fontWeight: 'bold',
+                        color: 'darkblue',
+                      }}
+                    >
+                      CASH OUT
+                    </Typography>
+                  </Box>
+                </Box>
+              </Box>
+              <Box
+                sx={{
+                  height: '20%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'end',
+                  justifyContent: 'center',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontSize: '11px',
+                    fontWeight: 'bold',
+                    color: 'grey',
+                  }}
+                >
+                  Tennessee Titans @ Miami Dolphins
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: '11px',
+                    fontWeight: 'bold',
+                    color: 'grey',
+                    marginLeft: 'auto',
+                  }}
+                >
+                  8:16 PM EST
+                </Typography>
+              </Box>
+              <Box
+                sx={{
+                  height: '50%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'start',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Box
+                  sx={{
+                    width: '50%',
+                    height: '80%',
+                    border: '1px solid lightgrey',
+                    padding: '.5em',
+                    borderRadius: '3px',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      color: 'black',
+                    }}
+                  >
+                    WAGER
+                  </Typography>
+                  <Typography>+$200.00</Typography>
+                </Box>
+                <Box
+                  sx={{
+                    width: '50%',
+                    height: '80%',
+                    border: '1px solid lightgrey',
+                    padding: '.5em',
+                    borderRadius: '3px',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      color: 'black',
+                    }}
+                  >
+                    AMOUNT WON:
+                  </Typography>
+                  <Typography>+$196.8</Typography>
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+          <Box
+            sx={{
+              width: '100%',
+              height: '15vh',
+              backgroundColor: 'white',
+              marginTop: '15px',
+              display: 'flex',
+              boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
+              alignItems: 'start',
+              justifyContent: 'center',
+              flexDirection: 'row',
+              padding: '.5em',
+            }}
+          >
+            <Box
+              sx={{
+                height: '100%',
+                width: '90%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'start',
+                flexDirection: 'column',
+              }}
+            >
+              <Box
+                sx={{
+                  height: '30%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'start',
+                  justifyContent: 'center',
+                  flexDirection: 'column',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Box
+                  sx={{
+                    height: '40%',
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography sx={{ fontSize: '14px', fontWeight: 'bold' }}>
+                    Tenneesee Titans +13.5
+                  </Typography>
+                  <Typography
+                    sx={{
+                      marginLeft: 'auto',
+                      fontSize: '14px',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    -120
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    height: '50%',
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '12px',
+                      fontWeight: 'bold',
+                      color: 'lightblack',
+                    }}
+                  >
+                    SPREAD
+                  </Typography>
+                  <Box
+                    sx={{
+                      width: '4em',
+                      height: '1.2em',
+                      borderRadius: '3px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      backgroundColor: 'lightgrey',
+                      marginLeft: 'auto',
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        fontSize: '11px',
+                        fontWeight: 'bold',
+                        color: 'darkblue',
+                      }}
+                    >
+                      CASH OUT
+                    </Typography>
+                  </Box>
+                </Box>
+              </Box>
+              <Box
+                sx={{
+                  height: '20%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'end',
+                  justifyContent: 'center',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontSize: '11px',
+                    fontWeight: 'bold',
+                    color: 'grey',
+                  }}
+                >
+                  Tennessee Titans @ Miami Dolphins
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: '11px',
+                    fontWeight: 'bold',
+                    color: 'grey',
+                    marginLeft: 'auto',
+                  }}
+                >
+                  8:16 PM EST
+                </Typography>
+              </Box>
+              <Box
+                sx={{
+                  height: '50%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'start',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Box
+                  sx={{
+                    width: '50%',
+                    height: '80%',
+                    border: '1px solid lightgrey',
+                    padding: '.5em',
+                    borderRadius: '3px',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      color: 'black',
+                    }}
+                  >
+                    WAGER
+                  </Typography>
+                  <Typography>+$200.00</Typography>
+                </Box>
+                <Box
+                  sx={{
+                    width: '50%',
+                    height: '80%',
+                    border: '1px solid lightgrey',
+                    padding: '.5em',
+                    borderRadius: '3px',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      color: 'black',
+                    }}
+                  >
+                    AMOUNT WON:
+                  </Typography>
+                  <Typography>+$196.8</Typography>
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+          <Box
+            sx={{
+              width: '100%',
+              height: '15vh',
+              backgroundColor: 'white',
+              marginTop: '15px',
+              display: 'flex',
+              boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
+              alignItems: 'start',
+              justifyContent: 'center',
+              flexDirection: 'row',
+              padding: '.5em',
+            }}
+          >
+            <Box
+              sx={{
+                height: '100%',
+                width: '90%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'start',
+                flexDirection: 'column',
+              }}
+            >
+              <Box
+                sx={{
+                  height: '30%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'start',
+                  justifyContent: 'center',
+                  flexDirection: 'column',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Box
+                  sx={{
+                    height: '40%',
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography sx={{ fontSize: '14px', fontWeight: 'bold' }}>
+                    Tenneesee Titans +13.5
+                  </Typography>
+                  <Typography
+                    sx={{
+                      marginLeft: 'auto',
+                      fontSize: '14px',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    -120
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    height: '50%',
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '12px',
+                      fontWeight: 'bold',
+                      color: 'lightblack',
+                    }}
+                  >
+                    SPREAD
+                  </Typography>
+                  <Box
+                    sx={{
+                      width: '4em',
+                      height: '1.2em',
+                      borderRadius: '3px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      backgroundColor: 'lightgrey',
+                      marginLeft: 'auto',
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        fontSize: '11px',
+                        fontWeight: 'bold',
+                        color: 'darkblue',
+                      }}
+                    >
+                      CASH OUT
+                    </Typography>
+                  </Box>
+                </Box>
+              </Box>
+              <Box
+                sx={{
+                  height: '20%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'end',
+                  justifyContent: 'center',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontSize: '11px',
+                    fontWeight: 'bold',
+                    color: 'grey',
+                  }}
+                >
+                  Tennessee Titans @ Miami Dolphins
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: '11px',
+                    fontWeight: 'bold',
+                    color: 'grey',
+                    marginLeft: 'auto',
+                  }}
+                >
+                  8:16 PM EST
+                </Typography>
+              </Box>
+              <Box
+                sx={{
+                  height: '50%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'start',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Box
+                  sx={{
+                    width: '50%',
+                    height: '80%',
+                    border: '1px solid lightgrey',
+                    padding: '.5em',
+                    borderRadius: '3px',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      color: 'black',
+                    }}
+                  >
+                    WAGER
+                  </Typography>
+                  <Typography>+$200.00</Typography>
+                </Box>
+                <Box
+                  sx={{
+                    width: '50%',
+                    height: '80%',
+                    border: '1px solid lightgrey',
+                    padding: '.5em',
+                    borderRadius: '3px',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      color: 'black',
+                    }}
+                  >
+                    AMOUNT WON:
+                  </Typography>
+                  <Typography>+$196.8</Typography>
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+          <Box
+            sx={{
+              width: '100%',
+              height: '15vh',
+              backgroundColor: 'white',
+              marginTop: '15px',
+              display: 'flex',
+              boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
+              alignItems: 'start',
+              justifyContent: 'center',
+              flexDirection: 'row',
+              padding: '.5em',
+            }}
+          >
+            <Box
+              sx={{
+                height: '100%',
+                width: '90%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'start',
+                flexDirection: 'column',
+              }}
+            >
+              <Box
+                sx={{
+                  height: '30%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'start',
+                  justifyContent: 'center',
+                  flexDirection: 'column',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Box
+                  sx={{
+                    height: '40%',
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography sx={{ fontSize: '14px', fontWeight: 'bold' }}>
+                    Tenneesee Titans +13.5
+                  </Typography>
+                  <Typography
+                    sx={{
+                      marginLeft: 'auto',
+                      fontSize: '14px',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    -120
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    height: '50%',
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '12px',
+                      fontWeight: 'bold',
+                      color: 'lightblack',
+                    }}
+                  >
+                    SPREAD
+                  </Typography>
+                  <Box
+                    sx={{
+                      width: '4em',
+                      height: '1.2em',
+                      borderRadius: '3px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      backgroundColor: 'lightgrey',
+                      marginLeft: 'auto',
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        fontSize: '11px',
+                        fontWeight: 'bold',
+                        color: 'darkblue',
+                      }}
+                    >
+                      CASH OUT
+                    </Typography>
+                  </Box>
+                </Box>
+              </Box>
+              <Box
+                sx={{
+                  height: '20%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'end',
+                  justifyContent: 'center',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontSize: '11px',
+                    fontWeight: 'bold',
+                    color: 'grey',
+                  }}
+                >
+                  Tennessee Titans @ Miami Dolphins
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: '11px',
+                    fontWeight: 'bold',
+                    color: 'grey',
+                    marginLeft: 'auto',
+                  }}
+                >
+                  8:16 PM EST
+                </Typography>
+              </Box>
+              <Box
+                sx={{
+                  height: '50%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'start',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Box
+                  sx={{
+                    width: '50%',
+                    height: '80%',
+                    border: '1px solid lightgrey',
+                    padding: '.5em',
+                    borderRadius: '3px',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      color: 'black',
+                    }}
+                  >
+                    WAGER
+                  </Typography>
+                  <Typography>+$200.00</Typography>
+                </Box>
+                <Box
+                  sx={{
+                    width: '50%',
+                    height: '80%',
+                    border: '1px solid lightgrey',
+                    padding: '.5em',
+                    borderRadius: '3px',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      color: 'black',
+                    }}
+                  >
+                    AMOUNT WON:
+                  </Typography>
+                  <Typography>+$196.8</Typography>
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+          <Box
+            sx={{
+              width: '100%',
+              height: '15vh',
+              backgroundColor: 'white',
+              marginTop: '15px',
+              display: 'flex',
+              boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
+              alignItems: 'start',
+              justifyContent: 'center',
+              flexDirection: 'row',
+              padding: '.5em',
+            }}
+          >
+            <Box
+              sx={{
+                height: '100%',
+                width: '90%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'start',
+                flexDirection: 'column',
+              }}
+            >
+              <Box
+                sx={{
+                  height: '30%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'start',
+                  justifyContent: 'center',
+                  flexDirection: 'column',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Box
+                  sx={{
+                    height: '40%',
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography sx={{ fontSize: '14px', fontWeight: 'bold' }}>
+                    Tenneesee Titans +13.5
+                  </Typography>
+                  <Typography
+                    sx={{
+                      marginLeft: 'auto',
+                      fontSize: '14px',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    -120
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    height: '50%',
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '12px',
+                      fontWeight: 'bold',
+                      color: 'lightblack',
+                    }}
+                  >
+                    SPREAD
+                  </Typography>
+                  <Box
+                    sx={{
+                      width: '4em',
+                      height: '1.2em',
+                      borderRadius: '3px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      backgroundColor: 'lightgrey',
+                      marginLeft: 'auto',
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        fontSize: '11px',
+                        fontWeight: 'bold',
+                        color: 'darkblue',
+                      }}
+                    >
+                      CASH OUT
+                    </Typography>
+                  </Box>
+                </Box>
+              </Box>
+              <Box
+                sx={{
+                  height: '20%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'end',
+                  justifyContent: 'center',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontSize: '11px',
+                    fontWeight: 'bold',
+                    color: 'grey',
+                  }}
+                >
+                  Tennessee Titans @ Miami Dolphins
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: '11px',
+                    fontWeight: 'bold',
+                    color: 'grey',
+                    marginLeft: 'auto',
+                  }}
+                >
+                  8:16 PM EST
+                </Typography>
+              </Box>
+              <Box
+                sx={{
+                  height: '50%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'start',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Box
+                  sx={{
+                    width: '50%',
+                    height: '80%',
+                    border: '1px solid lightgrey',
+                    padding: '.5em',
+                    borderRadius: '3px',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      color: 'black',
+                    }}
+                  >
+                    WAGER
+                  </Typography>
+                  <Typography>+$200.00</Typography>
+                </Box>
+                <Box
+                  sx={{
+                    width: '50%',
+                    height: '80%',
+                    border: '1px solid lightgrey',
+                    padding: '.5em',
+                    borderRadius: '3px',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      color: 'black',
+                    }}
+                  >
+                    AMOUNT WON:
+                  </Typography>
+                  <Typography>+$196.8</Typography>
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+          <Box
+            sx={{
+              width: '100%',
+              height: '15vh',
+              backgroundColor: 'white',
+              marginTop: '15px',
+              display: 'flex',
+              boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
+              alignItems: 'start',
+              justifyContent: 'center',
+              flexDirection: 'row',
+              padding: '.5em',
+            }}
+          >
+            <Box
+              sx={{
+                height: '100%',
+                width: '90%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'start',
+                flexDirection: 'column',
+              }}
+            >
+              <Box
+                sx={{
+                  height: '30%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'start',
+                  justifyContent: 'center',
+                  flexDirection: 'column',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Box
+                  sx={{
+                    height: '40%',
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography sx={{ fontSize: '14px', fontWeight: 'bold' }}>
+                    Tenneesee Titans +13.5
+                  </Typography>
+                  <Typography
+                    sx={{
+                      marginLeft: 'auto',
+                      fontSize: '14px',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    -120
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    height: '50%',
+                    width: '100%',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '12px',
+                      fontWeight: 'bold',
+                      color: 'lightblack',
+                    }}
+                  >
+                    SPREAD
+                  </Typography>
+                  <Box
+                    sx={{
+                      width: '4em',
+                      height: '1.2em',
+                      borderRadius: '3px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      backgroundColor: 'lightgrey',
+                      marginLeft: 'auto',
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        fontSize: '11px',
+                        fontWeight: 'bold',
+                        color: 'darkblue',
+                      }}
+                    >
+                      CASH OUT
+                    </Typography>
+                  </Box>
+                </Box>
+              </Box>
+              <Box
+                sx={{
+                  height: '20%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'end',
+                  justifyContent: 'center',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontSize: '11px',
+                    fontWeight: 'bold',
+                    color: 'grey',
+                  }}
+                >
+                  Tennessee Titans @ Miami Dolphins
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: '11px',
+                    fontWeight: 'bold',
+                    color: 'grey',
+                    marginLeft: 'auto',
+                  }}
+                >
+                  8:16 PM EST
+                </Typography>
+              </Box>
+              <Box
+                sx={{
+                  height: '50%',
+                  width: '90%',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'start',
+                  marginLeft: '15px',
+                  gap: '.3em',
+                }}
+              >
+                <Box
+                  sx={{
+                    width: '50%',
+                    height: '80%',
+                    border: '1px solid lightgrey',
+                    padding: '.5em',
+                    borderRadius: '3px',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      color: 'black',
+                    }}
+                  >
+                    WAGER
+                  </Typography>
+                  <Typography>+$200.00</Typography>
+                </Box>
+                <Box
+                  sx={{
+                    width: '50%',
+                    height: '80%',
+                    border: '1px solid lightgrey',
+                    padding: '.5em',
+                    borderRadius: '3px',
+                    display: 'flex',
+                    alignItems: 'start',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      color: 'black',
+                    }}
+                  >
+                    AMOUNT WON:
+                  </Typography>
+                  <Typography>+$196.8</Typography>
+                </Box>
+              </Box>
+            </Box>
+          </Box>
+          <Box
+            sx={{
+              width: '100%',
+              height: '5vh',
+              marginTop: '15px',
+              backgroundColor: 'white',
+              display: 'flex',
+              boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
+              alignItems: 'center',
+              justifyContent: 'center',
+              padding: '.5em',
+            }}
+          >
+            <SvgIcon
+              component={DeleteOutlineIcon}
+              sx={{
+                height: { md: '20px', lg: '40px', xl: '20px' },
+                width: { md: '20px', lg: '40px', xl: '20px' },
+                color: 'red',
+                display: {
+                  xs: 'none',
+                  sm: 'none',
+                  md: 'none',
+                  lg: 'inline',
+                },
+                '&:hover': {
+                  cursor: 'pointer',
+                },
+              }}
+            />
+            <Typography
+              sx={{
+                fontFamily: 'Birds',
+                color: 'red',
+                marginLeft: '5px',
+                fontSize: '11px',
+                '&:hover': {
+                  cursor: 'pointer',
+                },
+              }}
+            >
+              Archive History
+            </Typography>
+          </Box>
         </Box>
       )}
     </Box>
