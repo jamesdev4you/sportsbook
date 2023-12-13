@@ -64,12 +64,7 @@ const Parlay = () => {
             width: '25px',
             color: 'green',
             marginRight: '.2em',
-            display: {
-              xs: 'none',
-              sm: 'none',
-              md: 'none',
-              lg: 'inline',
-            },
+            display: 'inline',
           }}
         />
         <Typography
@@ -155,12 +150,7 @@ const Parlay = () => {
                       width: '15px',
                       color: 'green',
                       marginRight: '.2em',
-                      display: {
-                        xs: 'none',
-                        sm: 'none',
-                        md: 'none',
-                        lg: 'inline',
-                      },
+                      display: 'inline',
                     }}
                   />
                   <Typography
@@ -204,12 +194,7 @@ const Parlay = () => {
                         width: '14px',
                         color: 'black',
                         marginRight: '.2em',
-                        display: {
-                          xs: 'none',
-                          sm: 'none',
-                          md: 'none',
-                          lg: 'inline',
-                        },
+                        display: 'inline',
                       }}
                     />
                     <Typography

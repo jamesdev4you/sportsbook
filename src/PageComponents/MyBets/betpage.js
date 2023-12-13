@@ -12,10 +12,22 @@ const BetPage = () => {
     <Box
       sx={{
         backgroundColor: '#EAF0F6',
-        width: '40%',
-        height: '315.2vh',
+        width: { xl: '44%', lg: '54%', md: '80%', sm: '100%', xs: '100%' },
+        height: {
+          xl: '315.2vh',
+          lg: '315.2vh',
+          md: '315.2vh',
+          sm: 'auto',
+          xs: 'auto',
+        },
         display: 'flex',
-        padding: '2.3em',
+        padding: {
+          xl: '2.3em',
+          lg: '2.3em',
+          md: '2.3em',
+          sm: '1em',
+          xs: '1em',
+        },
         alignItems: 'start',
         justifyContent: 'start',
         flexDirection: 'column',
@@ -29,19 +41,19 @@ const BetPage = () => {
       </Typography>
       <Box
         sx={{
-          background:
-            'linear-gradient(70deg, rgba(234,240,246,1) 0%, rgba(234,240,246,1) 95%, rgba(255,255,255,1) 100%)',
+          background: 'rgba(255,255,255,1)',
           width: '100%',
           height: '3em',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'start',
+          gap: '1em',
         }}
       >
         <Box
           sx={{
             height: '100%',
-            width: '10%',
+            width: { xs: '25%', md: '10%' },
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -62,7 +74,7 @@ const BetPage = () => {
         <Box
           sx={{
             height: '100%',
-            width: '10%',
+            width: { xs: '25%', md: '10%' },
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -84,7 +96,7 @@ const BetPage = () => {
       {activeTab === 'Active' && (
         <Box
           sx={{
-            marginTop: '2em',
+            marginTop: '1em',
             width: '100%',
             height: '70vh',
             backgroundColor: '#EAF0F6',
@@ -887,7 +899,7 @@ const BetPage = () => {
       {activeTab === 'Settled' && (
         <Box
           sx={{
-            marginTop: '2em',
+            marginTop: '1em',
             width: '100%',
             height: 'auto',
             backgroundColor: '#EAF0F6',

@@ -19,6 +19,7 @@ import { Outlet } from 'react-router-dom';
 import { styled, alpha } from '@mui/material/styles';
 import { MyJoinButton } from '../../styledComponents';
 import { MyLoginButton } from '../../styledComponents';
+import { Typography } from '@mui/material';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -79,14 +80,36 @@ export default function NavBar(props) {
   const drawer = (
     <Box
       onClick={handleDrawerToggle}
-      sx={{ textAlign: 'center', backgroundColor: '#E4DCC0' }}
+      sx={{ textAlign: 'center', backgroundColor: '#00499B' }}
     >
       <img src={Logo} alt='yooo' style={{ height: '150px', width: '150px' }} />
-      <Divider sx={{ backgroundColor: '#1B1E1E' }} />
-      <List sx={{ backgroundColor: '#E4DCC0' }}>
+      <Divider sx={{ backgroundColor: '#00499B' }} />
+      <List
+        sx={{
+          backgroundColor: '#00499B',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          flexDirection: 'column',
+          width: '100%',
+        }}
+      >
         {navItems.map((item) => (
-          <ListItem key={item.text} sx={{ margin: '30px 0px' }} disablePadding>
-            {item.text}
+          <ListItem key={item.text} sx={{ color: 'white' }} disablePadding>
+            <NavLink
+              key={item.href}
+              style={{
+                fontFamily: 'Birds',
+                color: 'white',
+                textDecoration: 'none',
+                marginRight: 'auto',
+                fontSize: '20px',
+                padding: '1em',
+              }}
+              to={item.href}
+            >
+              {item.text}
+            </NavLink>
           </ListItem>
         ))}
       </List>
@@ -116,7 +139,7 @@ export default function NavBar(props) {
             onClick={handleDrawerToggle}
             sx={{ mr: 2, display: { sm: 'block', md: 'none' } }}
           >
-            <MenuIcon sx={{ color: '#1B1E1E' }} />
+            <MenuIcon sx={{ color: 'white' }} />
           </IconButton>
           <Box
             alt='yooo'
@@ -192,7 +215,7 @@ export default function NavBar(props) {
             '& .MuiDrawer-paper': {
               boxSizing: 'border-box',
               width: drawerWidth,
-              backgroundColor: '#E4DCC0',
+              backgroundColor: '#00499B',
             },
           }}
         >

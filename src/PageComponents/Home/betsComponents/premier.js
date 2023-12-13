@@ -96,12 +96,7 @@ const Premier = () => {
             width: { md: '20px', lg: '40px', xl: '25px' },
             color: 'skyblue',
             marginRight: '.2em',
-            display: {
-              xs: 'none',
-              sm: 'none',
-              md: 'none',
-              lg: 'inline',
-            },
+            display: 'inline',
           }}
         />
         <Typography
@@ -424,12 +419,7 @@ const Premier = () => {
                 width: { md: '20px', lg: '40px', xl: '20px' },
                 color: 'green',
                 marginRight: '.2em',
-                display: {
-                  xs: 'none',
-                  sm: 'none',
-                  md: 'none',
-                  lg: 'inline',
-                },
+                display: 'inline',
               }}
             />
             <Typography
@@ -503,7 +493,7 @@ const Premier = () => {
           variant='p'
           sx={{ fontFamily: 'Birds', fontWeight: 'bold' }}
         >
-          Week 10+ Game Parlay Recomendations
+          Week 10+ Game Parlay
         </Typography>
         <Button
           sx={{

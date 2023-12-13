@@ -131,12 +131,7 @@ const NBA = () => {
             width: { md: '20px', lg: '40px', xl: '25px' },
             color: 'brown',
             marginRight: '.2em',
-            display: {
-              xs: 'none',
-              sm: 'none',
-              md: 'none',
-              lg: 'inline',
-            },
+            display: 'inline',
           }}
         />
         <Typography
@@ -579,12 +574,7 @@ const NBA = () => {
                   width: { md: '20px', lg: '40px', xl: '20px' },
                   color: 'green',
                   marginRight: '.2em',
-                  display: {
-                    xs: 'none',
-                    sm: 'none',
-                    md: 'none',
-                    lg: 'inline',
-                  },
+                  display: 'inline',
                 }}
               />
               <Typography
@@ -659,7 +649,7 @@ const NBA = () => {
           variant='p'
           sx={{ fontFamily: 'Birds', fontWeight: 'bold' }}
         >
-          To Record a Double Double Parlay Builder
+          To Record a Double Double Parlay
         </Typography>
         <Button
           sx={{

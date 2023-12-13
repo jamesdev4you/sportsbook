@@ -97,12 +97,7 @@ const Wimbledon = () => {
             width: { md: '20px', lg: '40px', xl: '25px' },
             color: 'green',
             marginRight: '.2em',
-            display: {
-              xs: 'none',
-              sm: 'none',
-              md: 'none',
-              lg: 'inline',
-            },
+            display: 'inline',
           }}
         />
         <Typography
@@ -217,12 +212,7 @@ const Wimbledon = () => {
             width: { md: '20px', lg: '40px', xl: '25px' },
             color: 'green',
             marginRight: '.2em',
-            display: {
-              xs: 'none',
-              sm: 'none',
-              md: 'none',
-              lg: 'inline',
-            },
+            display: 'inline',
           }}
         />
         <Typography
