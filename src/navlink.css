@@ -21,7 +21,7 @@ a.nav_link:hover {
 .menu_link {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 14px;
   margin-left: 35px;
   text-align: left;
   height: 100%;
@@ -31,5 +31,5 @@ a.menu_link:hover {
   cursor: pointer;
   color: white;
   border-bottom: 1px solid white;
-  padding-bottom: 27px;
+  padding-bottom: 30px;
 }

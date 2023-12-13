@@ -60,8 +60,8 @@ const Parlay = () => {
         <SvgIcon
           component={LocalAtmIcon}
           sx={{
-            height: { md: '20px', lg: '40px', xl: '25px' },
-            width: { md: '20px', lg: '40px', xl: '25px' },
+            height: '25px',
+            width: '25px',
             color: 'green',
             marginRight: '.2em',
             display: {
@@ -151,8 +151,8 @@ const Parlay = () => {
                   <SvgIcon
                     component={LocalAtmIcon}
                     sx={{
-                      height: { md: '20px', lg: '40px', xl: '15px' },
-                      width: { md: '20px', lg: '40px', xl: '15px' },
+                      height: '15px',
+                      width: '15px',
                       color: 'green',
                       marginRight: '.2em',
                       display: {
@@ -200,8 +200,8 @@ const Parlay = () => {
                     <SvgIcon
                       component={WhatshotIcon}
                       sx={{
-                        height: { md: '20px', lg: '40px', xl: '14px' },
-                        width: { md: '20px', lg: '40px', xl: '14px' },
+                        height: '14px',
+                        width: '14px',
                         color: 'black',
                         marginRight: '.2em',
                         display: {

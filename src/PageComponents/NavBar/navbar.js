@@ -105,8 +105,8 @@ export default function NavBar(props) {
         <Toolbar
           sx={{
             backgroundColor: '#00499B',
-            marginLeft: '14.4em',
-            marginRight: '14.4em',
+            marginLeft: { xl: '14.4em', lg: '5em', md: '0em' },
+            marginRight: { xl: '14.4em', lg: '5em', md: '0em' },
           }}
         >
           <IconButton
@@ -121,7 +121,7 @@ export default function NavBar(props) {
           <Box
             alt='yooo'
             sx={{
-              display: { sm: 'none', md: 'block' },
+              display: { xs: 'block', sm: 'block', md: 'block' },
               height: '5em',
               width: '5em',
               marginLeft: {
@@ -140,7 +140,7 @@ export default function NavBar(props) {
           <Box
             sx={{
               display: { xs: 'none', sm: 'none', md: 'block' },
-              marginLeft: '2em',
+              marginLeft: { xl: '2em', lg: '1.3em', md: '3em' },
             }}
           >
             {navItems.map((item) => (
@@ -159,7 +159,7 @@ export default function NavBar(props) {
           </Box>
           <Box
             sx={{
-              display: 'flex',
+              display: { xs: 'none', sm: 'none', md: 'flex' },
               marginLeft: 'auto',
               gap: '10px',
               alignItems: 'center',

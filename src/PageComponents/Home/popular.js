@@ -68,7 +68,14 @@ const iconTitle = [
 
 const Popular = () => {
   return (
-    <Box sx={{ backgroundColor: '#05285A', width: '25em', height: '315.2vh' }}>
+    <Box
+      sx={{
+        backgroundColor: '#05285A',
+        display: { xl: 'flex', lg: 'flex', md: 'flex', sm: 'none', xs: 'none' },
+        width: { xl: '21%', lg: '16%', md: '20%' },
+        height: '315.2vh',
+      }}
+    >
       <Box
         sx={{
           display: 'flex',
@@ -103,14 +110,14 @@ const Popular = () => {
             <SvgIcon
               component={icon}
               sx={{
-                height: { md: '20px', lg: '40px', xl: '20px' },
-                width: { md: '20px', lg: '40px', xl: '20px' },
+                height: '20px',
+                width: '20px',
                 color: 'white',
                 marginRight: '.7em',
                 display: {
                   xs: 'none',
                   sm: 'none',
-                  md: 'none',
+                  md: 'inline',
                   lg: 'inline',
                 },
               }}

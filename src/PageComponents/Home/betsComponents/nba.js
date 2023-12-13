@@ -227,7 +227,7 @@ const NBA = () => {
             sx={{
               width: '100%',
               backgroundColor: '#FFFFFF',
-              height: '8em',
+              height: '10em',
               borderBottom: '1px solid #C9D1DB',
               display: 'flex',
               alignItems: 'center',
@@ -379,7 +379,7 @@ const NBA = () => {
                     sx={{
                       width: '30%',
                       backgroundColor: 'white',
-                      height: '95%',
+                      height: { xs: '80%', sm: '95%' },
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
@@ -409,7 +409,7 @@ const NBA = () => {
                     sx={{
                       width: '30%',
                       backgroundColor: 'white',
-                      height: '95%',
+                      height: { xs: '80%', sm: '95%' },
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
@@ -436,7 +436,7 @@ const NBA = () => {
                     sx={{
                       width: '30%',
                       backgroundColor: 'white',
-                      height: '95%',
+                      height: { xs: '80%', sm: '95%' },
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
@@ -477,7 +477,7 @@ const NBA = () => {
                     sx={{
                       width: '30%',
                       backgroundColor: 'white',
-                      height: '95%',
+                      height: { xs: '80%', sm: '95%' },
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
@@ -507,7 +507,7 @@ const NBA = () => {
                     sx={{
                       width: '30%',
                       backgroundColor: 'white',
-                      height: '95%',
+                      height: { xs: '80%', sm: '95%' },
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
@@ -534,7 +534,7 @@ const NBA = () => {
                     sx={{
                       width: '30%',
                       backgroundColor: 'white',
-                      height: '95%',
+                      height: { xs: '80%', sm: '95%' },
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',

@@ -11,10 +11,10 @@ const Bets = () => {
     <Box
       sx={{
         backgroundColor: '#EAF0F6',
-        width: '40%',
+        width: { xl: '44%', lg: '54%', md: '80%', sm: '100%', xs: '100%' },
         height: 'auto',
         display: 'flex',
-        padding: '2em',
+        padding: { xl: '2em', lg: '2em', md: '2em', sm: '2em', xs: '.5em' },
         alignItems: 'center',
         justifyContent: 'start',
         flexDirection: 'column',

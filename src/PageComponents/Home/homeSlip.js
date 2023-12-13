@@ -7,28 +7,28 @@ import '../../index.css';
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 import Button from '@mui/material/Button';
 
-const StickyBox = styled(Box)({
-  width: '39%',
-  position: 'fixed',
-  right: 0,
-  top: 0,
-  height: '100vh',
-  zIndex: 1000,
-  display: 'flex',
-  alignItems: 'start',
-  justifyContent: 'start',
-  flexDirection: 'column',
-  backgroundColor: '#EAF0F6',
-  paddingTop: '5em',
-});
-
 const HomeSlip = () => {
   return (
-    <StickyBox>
+    <Box
+      sx={{
+        width: { xl: '35%', lg: '30%', md: 'none', sm: 'none', xs: 'none' },
+        position: 'fixed',
+        right: 0,
+        top: 0,
+        height: '100vh',
+        zIndex: 1000,
+        display: { xl: 'flex', lg: 'flex', md: 'none', sm: 'none', xs: 'none' },
+        alignItems: 'start',
+        justifyContent: 'start',
+        flexDirection: 'column',
+        backgroundColor: '#EAF0F6',
+        paddingTop: '5em',
+      }}
+    >
       <Box
         sx={{
           marginTop: '2em',
-          width: '50%',
+          width: { xl: '25em', lg: '22em', md: '20em', sm: 'none', xs: 'none' },
           height: '80vh',
           backgroundColor: '#EAF0F6',
           boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
@@ -315,8 +315,8 @@ const HomeSlip = () => {
           <SvgIcon
             component={DeleteOutlineIcon}
             sx={{
-              height: { md: '20px', lg: '40px', xl: '20px' },
-              width: { md: '20px', lg: '40px', xl: '20px' },
+              height: '20px',
+              width: '20px',
               color: 'red',
               display: {
                 xs: 'none',
@@ -381,7 +381,7 @@ const HomeSlip = () => {
           </Button>
         </Box>
       </Box>
-    </StickyBox>
+    </Box>
   );
 };
 

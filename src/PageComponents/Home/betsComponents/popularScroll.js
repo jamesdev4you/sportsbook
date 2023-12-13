@@ -28,7 +28,7 @@ const PopularScroll = () => {
   return (
     <Box
       sx={{
-        maxWidth: { xs: 320, sm: '100%' },
+        maxWidth: '100%',
         height: '3em',
         backgroundColor: '#ffffff',
       }}
