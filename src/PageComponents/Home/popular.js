@@ -14,12 +14,11 @@ import SportsMmaIcon from '@mui/icons-material/SportsMma';
 import SportsMotorsportsIcon from '@mui/icons-material/SportsMotorsports';
 import SportsRugbyIcon from '@mui/icons-material/SportsRugby';
 import SportsVolleyballIcon from '@mui/icons-material/SportsVolleyball';
-import { ReactComponent as Nba} from '../../assets/NBASVG.svg';
 
 const iconTitle = [
   {
     title: 'NBA',
-    icon: Nba,
+    icon: SportsBasketballIcon,
   },
   {
     title: 'NFL',

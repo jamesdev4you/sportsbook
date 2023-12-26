@@ -7,6 +7,7 @@ import SportsGolfIcon from '@mui/icons-material/SportsGolf';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import Button from '@mui/material/Button';
+import pga from '../../../assets/pga.png';
 
 const morePlayers = [
   {
@@ -90,13 +91,17 @@ const Wimbledon = () => {
           padding: '1em',
         }}
       >
-        <SvgIcon
-          component={SportsGolfIcon}
+        <Box
+          
           sx={{
+            backgroundImage: `url(${pga})`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: 'center',
+            backgroundSize: "contain",
             height: { md: '20px', lg: '40px', xl: '25px' },
             width: { md: '20px', lg: '40px', xl: '25px' },
-            color: 'green',
-            marginRight: '.2em',
+            color: 'brown',
+            marginRight: '1em',
             display: 'inline',
           }}
         />
@@ -205,13 +210,17 @@ const Wimbledon = () => {
           padding: '1em',
         }}
       >
-        <SvgIcon
-          component={SportsGolfIcon}
+        <Box
+          
           sx={{
+            backgroundImage: `url(${pga})`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: 'center',
+            backgroundSize: "contain",
             height: { md: '20px', lg: '40px', xl: '25px' },
             width: { md: '20px', lg: '40px', xl: '25px' },
-            color: 'green',
-            marginRight: '.2em',
+            color: 'brown',
+            marginRight: '1em',
             display: 'inline',
           }}
         />

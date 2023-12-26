@@ -18,6 +18,7 @@ import LocalAtmIcon from '@mui/icons-material/LocalAtm';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '@mui/material/Button';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import logooo from '../../../assets/NBALOGO.png';
 
 const teams = [
   {
@@ -124,13 +125,17 @@ const NBA = () => {
           padding: '1em',
         }}
       >
-        <SvgIcon
-          component={SportsBasketballIcon}
+        <Box
+          
           sx={{
-            height: { md: '20px', lg: '40px', xl: '25px' },
+            backgroundImage: `url(${logooo})`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: 'center',
+            backgroundSize: "contain",
+            height: { md: '20px', lg: '30px', xl: '25px' },
             width: { md: '20px', lg: '40px', xl: '25px' },
             color: 'brown',
-            marginRight: '.2em',
+            marginRight: '1em',
             display: 'inline',
           }}
         />
@@ -570,8 +575,8 @@ const NBA = () => {
               <SvgIcon
                 component={LocalAtmIcon}
                 sx={{
-                  height: { md: '20px', lg: '40px', xl: '20px' },
-                  width: { md: '20px', lg: '40px', xl: '20px' },
+                  height: { md: '20px', lg: '20px', xl: '20px' },
+                  width: { md: '20px', lg: '20px', xl: '20px' },
                   color: 'green',
                   marginRight: '.2em',
                   display: 'inline',

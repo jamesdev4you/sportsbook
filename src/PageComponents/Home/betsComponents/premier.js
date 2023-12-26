@@ -18,6 +18,7 @@ import LocalAtmIcon from '@mui/icons-material/LocalAtm';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Button from '@mui/material/Button';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import premier from '../../../assets/premier.png'
 
 const teams = [
   {
@@ -89,13 +90,17 @@ const Premier = () => {
           padding: '1em',
         }}
       >
-        <SvgIcon
-          component={SportsSoccerIcon}
+        <Box
+          
           sx={{
+            backgroundImage: `url(${premier})`,
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: 'center',
+            backgroundSize: "contain",
             height: { md: '20px', lg: '40px', xl: '25px' },
             width: { md: '20px', lg: '40px', xl: '25px' },
-            color: 'skyblue',
-            marginRight: '.2em',
+            color: 'brown',
+            marginRight: '1em',
             display: 'inline',
           }}
         />
@@ -415,8 +420,8 @@ const Premier = () => {
             <SvgIcon
               component={LocalAtmIcon}
               sx={{
-                height: { md: '20px', lg: '40px', xl: '20px' },
-                width: { md: '20px', lg: '40px', xl: '20px' },
+                height: { md: '20px', lg: '20px', xl: '20px' },
+                width: { md: '20px', lg: '20px', xl: '20px' },
                 color: 'green',
                 marginRight: '.2em',
                 display: 'inline',

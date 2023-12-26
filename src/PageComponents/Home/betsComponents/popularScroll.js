@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Box from '@mui/material/Box';
-import Tabs from '@mui/material/Tabs';
+import Tabs, { tabsClasses } from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 
 const tabTitles = [
@@ -36,10 +36,14 @@ const PopularScroll = () => {
       <Tabs
         value={value}
         onChange={handleChange}
-        variant='scrollable'
+        variant="scrollable"
         scrollButtons
-        allowScrollButtonsMobile
-        aria-label='scrollable force tabs example'
+        aria-label="visible arrows tabs example"
+        sx={{
+          [`& .${tabsClasses.scrollButtons}`]: {
+            '&.Mui-disabled': { opacity: 0.3 },
+          },
+        }}
       >
         {tabTitles.map((x) => (
           <Tab label={x} sx={{ color: '#296BB2' }} />
