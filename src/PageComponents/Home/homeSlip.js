@@ -1,7 +1,6 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import SvgIcon from '@mui/material/SvgIcon';
-import { styled } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import '../../index.css';
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
@@ -11,7 +10,7 @@ const HomeSlip = () => {
   return (
     <Box
       sx={{
-        width: { xl: '35%', lg: '30%', md: 'none', sm: 'none', xs: 'none' },
+        width: { xl: '35%', lg: '31%', md: 'none', sm: 'none', xs: 'none' },
         position: 'fixed',
         right: 0,
         top: 0,
@@ -41,7 +40,7 @@ const HomeSlip = () => {
         <Box
           sx={{
             width: '100%',
-            height: '5vh',
+            height: '7vh',
             backgroundColor: 'white',
             display: 'flex',
             boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
@@ -81,7 +80,7 @@ const HomeSlip = () => {
         <Box
           sx={{
             width: '100%',
-            height: '15vh',
+            height: '20vh',
             marginTop: '15px',
             backgroundColor: 'white',
             display: 'flex',
@@ -346,7 +345,7 @@ const HomeSlip = () => {
         <Box
           sx={{
             width: '100%',
-            height: '6vh',
+            height: '4em',
             marginTop: 'auto',
             backgroundColor: 'white',
             display: 'flex',

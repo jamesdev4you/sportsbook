@@ -14,9 +14,9 @@ const BetPage = () => {
         backgroundColor: '#EAF0F6',
         width: { xl: '44%', lg: '54%', md: '80%', sm: '100%', xs: '100%' },
         height: {
-          xl: '315.2vh',
-          lg: '315.2vh',
-          md: '315.2vh',
+          xl: '536.2vh',
+          lg: '536.2vh',
+          md: '536.2vh',
           sm: 'auto',
           xs: 'auto',
         },
@@ -46,6 +46,7 @@ const BetPage = () => {
           height: '3em',
           display: 'flex',
           alignItems: 'center',
+          paddingLeft: '15px',
           justifyContent: 'start',
           gap: '1em',
         }}
@@ -98,7 +99,7 @@ const BetPage = () => {
           sx={{
             marginTop: '1em',
             width: '100%',
-            height: '70vh',
+            height: {xl:'50%', lg: '20%', md: '100%', sm: '100%', xs: '100%'},
             backgroundColor: '#EAF0F6',
             boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
             display: 'flex',
@@ -110,7 +111,7 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '5vh',
+              height: '7vh',
               backgroundColor: 'white',
               display: 'flex',
               boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
@@ -150,7 +151,7 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '15vh',
+              height: '20vh',
               backgroundColor: 'white',
               marginTop: '15px',
               display: 'flex',
@@ -372,7 +373,7 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '15vh',
+              height: '20vh',
               marginTop: '15px',
               backgroundColor: 'white',
               display: 'flex',
@@ -594,7 +595,7 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '15vh',
+              height: '20vh',
               marginTop: '15px',
               backgroundColor: 'white',
               display: 'flex',
@@ -816,7 +817,7 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '5vh',
+              height: '7vh',
               marginTop: '15px',
               backgroundColor: 'white',
               display: 'flex',
@@ -829,8 +830,8 @@ const BetPage = () => {
             <SvgIcon
               component={DeleteOutlineIcon}
               sx={{
-                height: { md: '20px', lg: '40px', xl: '20px' },
-                width: { md: '20px', lg: '40px', xl: '20px' },
+                height: { md: '20px', lg: '30px', xl: '20px' },
+                width: { md: '20px', lg: '30px', xl: '20px' },
                 color: 'red',
                 display: {
                   xs: 'none',
@@ -860,7 +861,7 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '6vh',
+              height: '4em',
               marginTop: 'auto',
               backgroundColor: 'white',
               display: 'flex',
@@ -913,7 +914,7 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '5vh',
+              height: '7vh',
               backgroundColor: 'white',
               display: 'flex',
               boxShadow: 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
@@ -965,6 +966,7 @@ const BetPage = () => {
                   color: 'white',
                   fontFamily: 'Birds',
                   fontWeight: 'bold',
+                  fontSize: {lg: '12px', xl: '16px'}
                 }}
               >
                 {' '}
@@ -975,7 +977,7 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '15vh',
+              height: '20vh',
               backgroundColor: 'white',
               marginTop: '15px',
               display: 'flex',
@@ -1168,7 +1170,7 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '15vh',
+              height: '20vh',
               backgroundColor: 'white',
               marginTop: '15px',
               display: 'flex',
@@ -1361,7 +1363,7 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '15vh',
+              height: '20vh',
               backgroundColor: 'white',
               marginTop: '15px',
               display: 'flex',
@@ -1554,7 +1556,7 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '15vh',
+              height: '20vh',
               backgroundColor: 'white',
               marginTop: '15px',
               display: 'flex',
@@ -1747,7 +1749,8 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '15vh',
+              height: '20vh',
+
               backgroundColor: 'white',
               marginTop: '15px',
               display: 'flex',
@@ -1940,7 +1943,8 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '15vh',
+              height: '20vh',
+
               backgroundColor: 'white',
               marginTop: '15px',
               display: 'flex',
@@ -2133,7 +2137,8 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '15vh',
+              height: '20vh',
+
               backgroundColor: 'white',
               marginTop: '15px',
               display: 'flex',
@@ -2326,7 +2331,7 @@ const BetPage = () => {
           <Box
             sx={{
               width: '100%',
-              height: '5vh',
+              height: '7vh',
               marginTop: '15px',
               backgroundColor: 'white',
               display: 'flex',
@@ -2339,8 +2344,8 @@ const BetPage = () => {
             <SvgIcon
               component={DeleteOutlineIcon}
               sx={{
-                height: { md: '20px', lg: '40px', xl: '20px' },
-                width: { md: '20px', lg: '40px', xl: '20px' },
+                height: { md: '20px', lg: '30px', xl: '20px' },
+                width: { md: '20px', lg: '30px', xl: '20px' },
                 color: 'red',
                 display: {
                   xs: 'none',

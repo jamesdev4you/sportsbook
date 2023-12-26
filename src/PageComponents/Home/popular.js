@@ -14,11 +14,12 @@ import SportsMmaIcon from '@mui/icons-material/SportsMma';
 import SportsMotorsportsIcon from '@mui/icons-material/SportsMotorsports';
 import SportsRugbyIcon from '@mui/icons-material/SportsRugby';
 import SportsVolleyballIcon from '@mui/icons-material/SportsVolleyball';
+import { ReactComponent as Nba} from '../../assets/NBASVG.svg';
 
 const iconTitle = [
   {
     title: 'NBA',
-    icon: SportsBasketballIcon,
+    icon: Nba,
   },
   {
     title: 'NFL',
@@ -73,7 +74,7 @@ const Popular = () => {
         backgroundColor: '#05285A',
         display: { xl: 'flex', lg: 'flex', md: 'flex', sm: 'none', xs: 'none' },
         width: { xl: '21%', lg: '16%', md: '20%' },
-        height: '315.2vh',
+        height: '536.2vh',
       }}
     >
       <Box
