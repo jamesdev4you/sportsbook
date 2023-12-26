@@ -94,6 +94,14 @@ export default function NavBar(props) {
           width: '100%',
         }}
       >
+
+
+      
+          
+<Box sx={{marginTop: '10px', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '5px'}}> 
+        <MyJoinButton />
+        <MyLoginButton />
+        </Box>
         {navItems.map((item) => (
           <ListItem key={item.text} sx={{ color: 'white' }} disablePadding>
             <NavLink
@@ -112,7 +120,9 @@ export default function NavBar(props) {
             </NavLink>
           </ListItem>
         ))}
+        
       </List>
+      
     </Box>
   );
 
