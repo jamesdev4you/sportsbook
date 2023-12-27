@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/sportsbook/static/css/main.066d2d9d.css",
+    "main.js": "/sportsbook/static/js/main.d0445859.js",
+    "static/media/birds.ttf": "/sportsbook/static/media/birds.7e687123cd4528224ce5.ttf",
+    "static/media/NBANUGGET.png": "/sportsbook/static/media/NBANUGGET.ad0ca736b0ebdb589e8c.png",
+    "static/media/NBAHAWKS.png": "/sportsbook/static/media/NBAHAWKS.4eb107639fd90ed668cc.png",
+    "static/media/NBAMAGIC.png": "/sportsbook/static/media/NBAMAGIC.0ac6b7711064da34b4da.png",
+    "static/media/NBAPACERS.png": "/sportsbook/static/media/NBAPACERS.69fc68b7d066e64332b7.png",
+    "static/media/NBAWIZARDS.png": "/sportsbook/static/media/NBAWIZARDS.ffd5667497d542a0de8d.png",
+    "static/media/NBA76.png": "/sportsbook/static/media/NBA76.fc51c85f1bf1bac7fb88.png",
+    "static/media/NBAKNICKS.png": "/sportsbook/static/media/NBAKNICKS.09763553ea7699a9bc7f.png",
+    "static/media/PremierBrentford.png": "/sportsbook/static/media/PremierBrentford.f90687055ff3db66650a.png",
+    "static/media/NBAHORNETS.png": "/sportsbook/static/media/NBAHORNETS.554cab20a6c78bc49fe8.png",
+    "static/media/PremierArsenal.png": "/sportsbook/static/media/PremierArsenal.aab2747a275b714a3644.png",
+    "static/media/NBAPISTONS.png": "/sportsbook/static/media/NBAPISTONS.4c32cf7d0c3186995e63.png",
+    "static/media/PremierChelsea.png": "/sportsbook/static/media/PremierChelsea.4b9b1a058ebc3210fe17.png",
+    "static/media/PremierUnited.png": "/sportsbook/static/media/PremierUnited.260dc8530828f81dbce4.png",
+    "static/media/Logo.png": "/sportsbook/static/media/Logo.a4a2793010eaddec1e41.png",
+    "static/media/PremierCity.png": "/sportsbook/static/media/PremierCity.1243769b93aeb9a8af90.png",
+    "static/media/PremierLiverpool.png": "/sportsbook/static/media/PremierLiverpool.a909dd01103a38b93737.png",
+    "static/media/PremierWatford.png": "/sportsbook/static/media/PremierWatford.21e7ff56b422e2020301.png",
+    "static/media/PremierWolver.png": "/sportsbook/static/media/PremierWolver.2a68e896971cbf5a9a62.png",
+    "static/media/mono.otf": "/sportsbook/static/media/mono.1431225e582a9b2522d0.otf",
+    "static/media/PremierBrighton.png": "/sportsbook/static/media/PremierBrighton.d242592ddaba4afd6fdf.png",
+    "static/media/premier.png": "/sportsbook/static/media/premier.c581ab0bd742cbd76a1a.png",
+    "static/media/NBARAPTORS.png": "/sportsbook/static/media/NBARAPTORS.20df3a99f7a1286d0dca.png",
+    "static/media/PremierTottenham.png": "/sportsbook/static/media/PremierTottenham.3d269ef3c1339f300422.png",
+    "static/media/pga.png": "/sportsbook/static/media/pga.1ef949d3fcee37ca7908.png",
+    "index.html": "/sportsbook/index.html",
+    "main.066d2d9d.css.map": "/sportsbook/static/css/main.066d2d9d.css.map",
+    "main.d0445859.js.map": "/sportsbook/static/js/main.d0445859.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.066d2d9d.css",
+    "static/js/main.d0445859.js"
+  ]
+}
