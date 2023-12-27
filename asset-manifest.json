@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sportsbook/static/css/main.066d2d9d.css",
-    "main.js": "/sportsbook/static/js/main.042f56be.js",
+    "main.js": "/sportsbook/static/js/main.3e258606.js",
     "static/media/birds.ttf": "/sportsbook/static/media/birds.7e687123cd4528224ce5.ttf",
     "static/media/NBANUGGET.png": "/sportsbook/static/media/NBANUGGET.ad0ca736b0ebdb589e8c.png",
     "static/media/NBAHAWKS.png": "/sportsbook/static/media/NBAHAWKS.4eb107639fd90ed668cc.png",
@@ -29,10 +29,10 @@
     "static/media/pga.png": "/sportsbook/static/media/pga.1ef949d3fcee37ca7908.png",
     "index.html": "/sportsbook/index.html",
     "main.066d2d9d.css.map": "/sportsbook/static/css/main.066d2d9d.css.map",
-    "main.042f56be.js.map": "/sportsbook/static/js/main.042f56be.js.map"
+    "main.3e258606.js.map": "/sportsbook/static/js/main.3e258606.js.map"
   },
   "entrypoints": [
     "static/css/main.066d2d9d.css",
-    "static/js/main.042f56be.js"
+    "static/js/main.3e258606.js"
   ]
 }
